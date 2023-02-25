@@ -10,7 +10,7 @@ public class Admin {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int adminId;
 
-    private String userName;
+    private String username;
 
     private String password;
 
@@ -25,11 +25,11 @@ public class Admin {
         this.adminId = adminId;
     }
 
-    public String getUserName() {
+    public String getUsername() {
         return userName;
     }
 
-    public void setUserName(String userName) {
+    public void setUsername(String userName) {
         this.userName = userName;
     }
 
