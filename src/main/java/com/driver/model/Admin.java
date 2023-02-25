@@ -26,11 +26,11 @@ public class Admin {
     }
 
     public String getUsername() {
-        return userName;
+        return username;
     }
 
     public void setUsername(String userName) {
-        this.userName = userName;
+        this.username = userName;
     }
 
     public String getPassword() {
